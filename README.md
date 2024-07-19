@@ -1,4 +1,4 @@
-# Corrected Claim Auto Keyer Bot
+# Corrected Claim Auto Keyer Bot ( Not an Open Source)
 
 **Technologies:** VBA, Python, BeautifulSoup, Pandas, openpyxl, Tesseract
 
