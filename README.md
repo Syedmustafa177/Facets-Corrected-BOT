@@ -1,15 +1,50 @@
-# Facets BOTS
-Python Based Facets BOT (Not an Open Source Code)
+# Corrected Claim Auto Keyer Bot
 
+**Technologies:** VBA, Python, BeautifulSoup, Pandas, openpyxl, Tesseract
 
-I've developed Python-based bots tailored for the Facets Application, although they are not open source. Please don't hesitate to contact me for more information.
+## Project Overview
 
-1. **Corrected Claim Auto Keyer Bot**: This bot efficiently integrates modifications from corrected images into the original Facets claim.
+The Corrected Claim Auto Keyer Bot is an automation solution developed to streamline the process of integrating modifications from corrected images into original claims using the Facets claim tool. The bot leverages various technologies to enhance efficiency, accuracy, and speed in handling claims data.
 
-2. **Cob Auto Keyer**: A Python-based automation tool that seamlessly incorporates EOB (Explanation of Benefits) data from Macess Images into Facets.
+## Features
 
-3. **End-to-End COB Auto Adjudicator**: This bot provides comprehensive automation for the processing of Coordination of Benefits (COB) claims within Facets.
+- **Automation Bot Development:** Utilized Python and Pywinauto to create a bot that interacts with the Facets claim tool, ensuring seamless integration of corrected images.
+- **Efficient Copy-Pasting:** Implemented Pyperclip to manage copy-pasting operations, enhancing the bot's ability to handle data accurately and swiftly across different interfaces.
+- **OCR Technology:** Leveraged Optical Character Recognition (OCR) to identify and target input fields within the Facets application, optimizing data entry and minimizing manual errors.
+- **Image Element Identification:** Utilized BeautifulSoup for accurately identifying image elements, improving the bot's precision in data handling.
+- **Data Extraction with Tesseract OCR:** Used Tesseract OCR to extract relevant data from the Facets tool, ensuring accurate data capture.
+- **Excel Management:** Implemented Openpyxl to manage and document all claim numbers in Excel, maintaining organized and accessible records.
 
-4. **Data Elements Checker Bot**: An automated solution for meticulously verifying data elements.
+## Installation
 
-5. **Segregation Bot**: This bot determines the claim type (EDI, paper, COB, Authorization, or Corrected) through a systematic segregation process. If you have any further questions or need additional details, please feel free to reach out.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Corrected-Claim-Auto-Keyer-Bot.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Corrected-Claim-Auto-Keyer-Bot
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main Python script to start the bot:
+    ```bash
+    python main.py
+    ```
+2. Follow the on-screen instructions to interact with the bot and the Facets claim tool.
+
+## Dependencies
+
+- Python
+- Pywinauto
+- Pyperclip
+- BeautifulSoup
+- Pandas
+- openpyxl
+- Tesseract OCR
+
